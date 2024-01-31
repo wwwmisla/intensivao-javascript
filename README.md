@@ -4,7 +4,7 @@
 
 ## Intensivão de JavaScript
 
-### 📄 Descrição do Projeto
+## 📄 Descrição do Projeto
 
 <div align="left">
 
@@ -13,19 +13,23 @@
 - Projeto 01
     - Título: Audiobook
         - Descrição:
+        - Deploy: [Audiobook]()
 - Projeto 02
     - Título: Apple Watch
         - Descrição:
+        - Deploy: [Apple Watch](https://wwwmisla.github.io/intensivao-javascript/apple-watch/)
 - Projeto 03
     - Título: Cardápio Digital
         - Descrição:
+        - Deploy: []()
 - Projeto 04 
     - Título: Chat em tempo real
         - Descrição:
+        - Deploy: []()
 
 </div>
 
-### 🛠 Tecnologias Utilizadas
+## 🛠 Tecnologias Utilizadas
 
 <div align="center">
   <img align="center" alt="Misla-HTML" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
