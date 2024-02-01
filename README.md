@@ -13,7 +13,7 @@
 - Projeto 01
     - Título: Audiobook
         - Descrição:
-        - Deploy: [Audiobook]()
+        - Deploy: [Audiobook](https://wwwmisla.github.io/intensivao-javascript/audiobook/)
 - Projeto 02
     - Título: Apple Watch
         - Descrição:
@@ -21,11 +21,11 @@
 - Projeto 03
     - Título: Cardápio Digital
         - Descrição:
-        - Deploy: []()
+        - Deploy: [Cardápio Digital]()
 - Projeto 04 
     - Título: Chat em tempo real
         - Descrição:
-        - Deploy: []()
+        - Deploy: [Chat em tempo real]()
 
 </div>
 
