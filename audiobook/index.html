@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hamlet</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="./src/css/style.css">
+  <link rel="shortcut icon" href="./src/images/hamlet/1.jpg" type="image/x-icon">
+</head>
+<body>
+
+  <header>
+    <a href="#">
+      <span class="bi bi-earbuds"></span>
+      <span>AudioBook</span>
+    </a>
+    <a href="">
+      <span class="bi bi-book-fill"></span>
+      <span>Books</span>     
+    </a>
+    <a href="">
+      <span class="bi bi-braces"></span>
+      <span>WWWMISLA</span>
+    </a>
+  </header>
+
+  <main id="container-aplicativo">
+    <div class="app-detalhes">
+      <div class="informacoes-livro">
+        
+      </div>
+      <img id="capa" src="./src/images/hamlet/1.jpg" alt="Hamlet">
+      <audio id='audio-capitulo' src="./src/books/hamlet/1.mp3"></audio>
+      <div id="informacoes-faixa">
+        <p id="capitulo" class="bi bi-bookmarks-fill ">Introdução</p>
+        <p id="nome-autor" class="bi bi-pen-fill"> William Shakespeare</p>
+      </div>
+      <div id="container-botoes">
+        <button id="anterior" class="bi bi-skip-backward-fill"></button>
+        <button id="play-pause" class="bi bi-play-circle-fill"></button>
+        <button id="proximo" class="bi bi-skip-forward-fill"></button>
+      </div>
+    </div>
+  </main>
+  <script src="./src/js/index.js"></script>
+</body>
+</html>
