@@ -3,46 +3,57 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hamlet</title>
+  <title>audiobook</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
   <link rel="stylesheet" href="./src/css/style.css">
-  <link rel="shortcut icon" href="./src/images/hamlet/1.jpg" type="image/x-icon">
+  <link rel="shortcut icon" href="https://www.svgrepo.com/show/344741/earbuds.svg" type="image/x-icon">
 </head>
 <body>
-
   <header>
     <a href="#">
       <span class="bi bi-earbuds"></span>
       <span>AudioBook</span>
     </a>
-    <a href="">
-      <span class="bi bi-book-fill"></span>
-      <span>Books</span>     
-    </a>
+    <button name="opcao-livro" id="0-dom-casmurro" onclick="trocarLivro(0)">
+        <span class="bi bi-book-fill"></span>
+        <span>Dom Casmurro</span>
+    </button>
+    <button name="opcao-livro" id="1-hamlet" onclick="trocarLivro(1)">
+        <span class="bi bi-book-fill"></span>
+        <span>Hamlet</span>
+    </button>
     <a href="">
       <span class="bi bi-braces"></span>
-      <span>WWWMISLA</span>
+      <span>Misla Wislaine</span>
     </a>
   </header>
 
   <main id="container-aplicativo">
     <div class="app-detalhes">
-      <div class="informacoes-livro">
-        
-      </div>
-      <img id="capa" src="./src/images/hamlet/1.jpg" alt="Hamlet">
+      <!-- <button id="anterior-livro" class="bi bi-arrow-left-square-fill"></button> -->
+      <img id="capa" src="./src/images/hamlet/1.jpg" alt="Book">
       <audio id='audio-capitulo' src="./src/books/hamlet/1.mp3"></audio>
       <div id="informacoes-faixa">
-        <p id="capitulo" class="bi bi-bookmarks-fill ">Introdução</p>
         <p id="nome-autor" class="bi bi-pen-fill"> William Shakespeare</p>
+        <p id="titulo" class="bi bi-book-fill"> Hamlet</p>
+        <p id="capitulo" class="bi bi-bookmarks-fill">Capítulo 1</p>
       </div>
       <div id="container-botoes">
         <button id="anterior" class="bi bi-skip-backward-fill"></button>
         <button id="play-pause" class="bi bi-play-circle-fill"></button>
         <button id="proximo" class="bi bi-skip-forward-fill"></button>
       </div>
+      <!-- <button id="proximo-livro" class="bi bi-arrow-right-square-fill"></button> -->
+    </div>
+    <div class="app-informacoes">
+      <img id="descricao-livro" src="./src/images/hamlet/5.jpg" alt="Descrição Livro">
+      <p id="descricao-livro">O audiobook de "Hamlet" oferece uma maneira acessível e envolvente de experimentar essa obra-prima da literatura mundial. O formato de audiobook permite que os ouvintes mergulhem na rica linguagem e na complexidade emocional dos personagens, enquanto são levados pelas reviravoltas da trama.</p>
     </div>
   </main>
+
+  <footer>
+    <p>&COPY; 2024, Misla Wislaine</p>
+  </footer>
   <script src="./src/js/index.js"></script>
 </body>
 </html>
