@@ -32,8 +32,9 @@
 ## 🛠 Tecnologias Utilizadas
 
 <div align="center">
-  <img align="center" alt="Misla-HTML" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+ <img align="center" alt="Misla-HTML" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
  <img align="center" alt="Misla-CSS" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+ <img align="center" alt="Misla-Bootstrap" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/bootstrap/bootstrap-original.svg">
  <img align="center" alt="Misla-JavaScript" height="50" width="60" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg">
 </div>
 
