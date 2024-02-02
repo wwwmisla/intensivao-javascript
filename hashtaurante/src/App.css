@@ -1,8 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #4141411f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00005028;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 34, 0.397);
 }
 
 .navegacao {
@@ -28,12 +48,10 @@
   }
 }
 
-
 input:checked + label {
   box-shadow: 3px 2px 10px #002;
   background-color: #000050;
 }
-
 
 .container-item-cardapio {
   display: flex;
@@ -41,9 +59,11 @@ input:checked + label {
   padding: 1rem;
   justify-content: space-evenly;
   border-radius: 10px;
-  box-shadow: -2px 2px 20px #002;
+  border: 1px solid gray;
+  cursor: pointer;
   & > img {
     height: 11rem;
+    border-radius: 10px;
   }
   & > div {
     display: flex;
@@ -52,12 +72,22 @@ input:checked + label {
     flex-basis: 60%;
     flex-grow: 0;
     & > h2 {
+      font-weight: 700;
+    }
+    & p:first-of-type {
+      color: #000050;
       font-weight: 600;
+    }
+    & p:nth-of-type(2) {
+      color: #414141;
+      font-weight: 500;
     }
   }
 }
 
-
+.container-item-cardapio:hover {
+  box-shadow: -2px 2px 10px black;
+}
 
 .menu {
   display: flex;
@@ -69,8 +99,7 @@ input:checked + label {
 }
 
 .capa {
-  max-height: 15rem;
+  max-height: 20rem;
   width: 100%;
   object-fit: cover;
 }
-
