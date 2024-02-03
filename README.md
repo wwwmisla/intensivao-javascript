@@ -21,7 +21,7 @@
 - Projeto 03
     - Título: Cardápio Digital
         - Descrição:
-        - Deploy: [Cardápio Digital](https://wwwmisla.github.io/intensivao-javascript/hashtaurante/)
+        - Deploy: [Cardápio Digital](https://hashtaurante-mw.vercel.app/)
 - Projeto 04 
     - Título: Chat em tempo real
         - Descrição:
